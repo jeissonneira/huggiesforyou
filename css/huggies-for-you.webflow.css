@@ -136,4 +136,17 @@ h3 {
     padding-right: 0px;
     padding-bottom: 0px;
   }
+
+  .button {
+    background-color: #fff;
+    font-family: Ubuntu, Helvetica, sans-serif;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .section-2 {
+    margin-bottom: 22px;
+    text-align: center;
+  }
 }
