@@ -13,6 +13,10 @@ h3 {
   font-weight: bold;
 }
 
+.section {
+  display: none;
+}
+
 .paragraph {
   display: none;
 }
@@ -27,6 +31,26 @@ h3 {
 
 .h2 {
   display: none;
+}
+
+.footer {
+  display: none;
+}
+
+.section-2 {
+  display: none;
+}
+
+.container-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.heading-2 {
+  text-align: center;
 }
 
 @media screen and (max-width: 479px) {
@@ -44,6 +68,7 @@ h3 {
   }
 
   .section {
+    display: block;
     height: 205px;
     border-bottom: 2px solid #fff;
     border-radius: 0px;
@@ -102,6 +127,7 @@ h3 {
   }
 
   .footer {
+    display: block;
     margin-top: auto;
     -webkit-box-flex: 0;
     -webkit-flex: 0 auto;
@@ -138,6 +164,7 @@ h3 {
   }
 
   .button {
+    margin-top: 35px;
     background-color: #fff;
     font-family: Ubuntu, Helvetica, sans-serif;
     color: #000;
@@ -146,7 +173,12 @@ h3 {
   }
 
   .section-2 {
+    display: block;
     margin-bottom: 22px;
     text-align: center;
+  }
+
+  .container-3 {
+    display: none;
   }
 }
